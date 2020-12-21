@@ -1,0 +1,473 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#box{
+	width: 1024px;
+	height: 1662px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.leftbg{
+	width: 38px;
+	height: 1662px;
+	background: url(img/l.png);
+	float: left;
+}
+
+.centerbg{
+	width: 948px;
+	height: 1662px;
+	background: #fecd33;
+	float: left;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+.rightbg{
+	width: 36px;
+	height: 1662px;
+	background: url(img/r.png);
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.bg1{
+	width: 948px;
+	height: 200px;
+	background: url(img/b1.png) repeat 0 0;
+	position: relative;
+}
+
+.bg2{
+	width: 948px;
+	height: 24px;
+	background: url(img/b2.png) repeat 0 0;
+}
+
+.houzi{
+	width: 546px;
+	height: 207px;
+	position: absolute;
+	top: 0;
+	left: 12px;
+	background: url(img/houzi.png) no-repeat 0 0;
+	z-index: 100;
+}
+
+.gerenkongjian{
+	width: 462px;
+	height: 99px;
+	background: rgba(255,255,255,0.5);
+	position: absolute;
+	top: 57px;
+	right: 146px;
+	z-index: 111;
+	border-radius: 7px;
+}
+
+.loginbox{
+	width: 286px;
+	height: 28px;
+	background: #ff9935;
+	position: absolute;
+	top: 6px;
+	right: -1px;
+	z-index: 222;
+}
+.loginbox2{
+	width: 14px;
+	height: 28px;
+	background: #ff9935;
+	position: absolute;
+	top: 6px;
+	right: 290px;
+	z-index: 222;
+	border-radius: 4px 0 0 4px;
+}
+
+.loginbox ul{
+	width: 244px;
+	height: 14px;
+	margin-left: 36px;
+	/*background: red;*/
+	margin-top: 7px;
+}
+
+.loginbox li{
+	width: 29px;
+	height: 14px;
+	padding: 0 12px 0 11px;
+	/*background: deepskyblue;*/
+	float: left;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+}
+
+li.VIP{
+	width: 59px;
+	height: 14px;
+	/*background: yellow;*/
+}
+
+.tiao{
+	width: 2px;
+	height: 14px;
+	background: black;
+	float: left;
+}
+
+.geren{
+	width: 331px;
+	height: 36px;
+	font-size: 34px;
+	line-height: 36px;
+	margin: 10px 0 0 11px;
+	color: #804559;
+}
+
+.introduce{
+	width: 276px;
+	height: 12px;
+	font-size: 12px;
+	color: #804559;
+	line-height: 12px;
+	margin: 22px 0 0 18px;
+}
+
+.sidebar_left{
+	width: 227px;
+	height: 1323px;
+	background: red;
+	margin: 10px 11px 0 7px;
+}
+
+.sidebar_left1{
+	width: 227px;
+	height: 350px;
+	background: deepskyblue;
+}
+
+.sidebar_left1_bg{
+	width: 227px;
+	height: 44px;
+	background: url(img/musicbg.png) repeat-x 0 0;
+	position: relative;
+}
+
+.sidebar_left1_bgl{
+	width: 5px;
+	height: 44px;
+	background: url(img/musicbgl.png) no-repeat 0 0;
+}
+
+.sidebar_left1_bgr{
+	width: 5px;
+	height: 44px;
+	background: url(img/musicbgr.png) no-repeat 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.jiantou{
+	width: 22px;
+	height: 22px;
+	background: url(img/jiantou.png) no-repeat 0 0;
+	position: absolute;
+	top: 10px;
+	left: 13px;
+}
+
+.musicstar{
+	width: 59px;
+	height: 41px;
+	padding-top: 1px;
+	line-height: 41px;
+	font-size: 14px;
+	color: #804559;
+	margin-left: 41px;
+}
+
+.musicmore{
+	width: 37px;
+	height: 41px;
+	padding-top: 1px;
+	line-height: 41px;
+	font-size: 14px;
+	color: #804559;
+	margin-left: 174px;
+	position: absolute;
+	top: 0;
+	text-align: center;
+}
+
+.musicmore div{
+	width: 37px;
+	height: 1px;
+	background: #804559;
+	position: absolute;
+	top: 30px;
+}
+
+.musiccenterbg{
+	width: 227px;
+	height: 281px;
+	background: url(img/musiccenter.png) repeat-x 0 0;
+	position: relative;
+}
+
+.musicboxbg{
+	width: 227px;
+	height: 258px;
+	background: url(img/musicboxbg.png) repeat-x 0 0;
+	position: relative;
+}
+
+.musiccenterbgl{
+	width: 5px;
+	height: 281px;
+	background: url(img/musiccenterl.png) no-repeat 0 0;
+}
+
+.musiccenterbgr{
+	width: 5px;
+	height: 281px;
+	background: url(img/musiccenterr.png) no-repeat 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.musicbg{
+	width: 200px;
+	height: 200px;
+	background: url(img/musiccenterbg.png) no-repeat 0 0;
+	position: absolute;
+	left: 14px;
+	top: 9px;
+}
+
+.music_menu{
+	width: 208px;
+	height: 24px;
+	/*background: pink;*/
+	margin-top: 207px;
+	margin-left: -4px;
+}
+
+.music_menu li{
+	width: 66px;
+	height: 24px;
+	background: url(img/menubg.png) repeat-x 0 0;
+	margin-right: 5px;
+	float: left;
+	position: relative;
+}
+
+.menubgl{
+	width: 9px;
+	height: 24px;
+	background: url(img/menubgl.png) no-repeat 0 0;
+}
+.menubgr{
+	width: 8px;
+	height: 24px;
+	background: url(img/menubgr.png) no-repeat 0 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+
+.music_menu li:hover{
+	width: 66px;
+	height: 24px;
+	background: url(img/menubg2.png) repeat-x 0 0;
+	margin-right: 5px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.music_menu li:hover .menubgl{
+	width: 9px;
+	height: 24px;
+	background: url(img/menubg2l.png) no-repeat 0 0;
+}
+.music_menu li:hover .menubgr{
+	width: 8px;
+	height: 24px;
+	background: url(img/menubg2r.png) no-repeat 0 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.text{
+	width: 48px;
+	height: 23px;
+	line-height: 23px;
+	font-size: 12px;
+	margin-left: 9px;
+}
+
+.music_menu li:hover .text{
+	color: #804559;
+}
+
+.menubottombg{
+	width: 227px;
+	height: 25px;
+	background: url(img/menubtbg.png) repeat-x 0 0;
+	position: relative;
+}
+
+.menubottombgl{
+	width: 7px;
+	height: 25px;
+	background: url(img/menubtbgl.png) repeat-x 0 0;
+}
+
+.menubottombgr{
+	width: 8px;
+	height: 25px;
+	background: url(img/menubtbgr.png) repeat-x 0 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.gedan_ul{
+	width: 175px;
+	height: 23px;
+	/*background: blue;*/
+	position: absolute;
+	left: 8px;
+	top: 0;
+}
+
+.gedan_ul li{
+	width: 55px;
+	height: 23px;
+	background: url(img/gedan2.png) repeat-x 0 0;
+	float: left;
+	margin-right: 5px;
+	position: relative;
+}
+
+.gedanyjl{
+	width: 5px;
+	height: 23px;
+	background: url(img/gedanyjl.png) no-repeat 0 0;
+}
+
+.gedanyjr{
+	width: 5px;
+	height: 23px;
+	background: url(img/gedanyjr.png) no-repeat 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.gedan_ul li:hover{
+	width: 55px;
+	height: 23px;
+	background: url(img/gedan.png) repeat-x 0 0;
+	float: left;
+	margin-right: 5px;
+	position: relative;
+	cursor: pointer;
+}
+
+.gedan_ul li:hover .gedanyjl{
+	width: 5px;
+	height: 23px;
+	background: url(img/gedanyj2l.png) no-repeat 0 0;
+}
+
+.gedan_ul li:hover .gedanyjr{
+	width: 5px;
+	height: 23px;
+	background: url(img/gedanyj2r.png) no-repeat 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.gedan_ul li:hover .gedanyjl .text{
+	color: #804559;
+}
+
+
+.gequ_ul{
+	width: 181px;
+	height: 187px;
+	/*background: red;*/
+	position: absolute;
+	top: 44px;
+	left: 21px;
+}
+
+.gequ_ul li{
+	width: 181px;
+	height: 16px;
+	border-bottom: 1px dotted black;
+	margin-bottom: 7px;
+	font-size: 11px;
+	line-height: 12px;
+	background: url(img/ej.png) no-repeat right 2px;
+}
+
+.shiting{
+	width: 53px;
+	height: 12px;
+	border-bottom: 1px solid #804559;
+	font-size: 12px;
+	line-height: 13px;
+	color: #804559;
+	position: absolute;
+	top: 240px;
+	right: 14px;
+	z-index: 999;
+}
+
+.jjgs{
+	width: 227px;
+	height: 269px;
+	background: url(img/jjgs.png) repeat-x 0 0;
+	position: relative;
+}
+
+.left_jiantoubg{
+	width: 54px;
+	height: 24px;
+	background: url(img/menubg.png) repeat-x 0 0;
+	position: absolute;
+	top: 224px;
+	left: 20px;
+	z-index: 999;
+}
+
+.jiantoubgl{
+	width: 9px;
+	height: 24px;
+	background: url(img/menubgl.png) no-repeat 0 0;
+}
+
+.jiantoubgr{
+	width: 8px;
+	height: 24px;
+	background: url(img/menubgr.png) no-repeat 0 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
